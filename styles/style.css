@@ -161,6 +161,12 @@ header {
     
 } */
 
+
+.fourth-section {
+    display: flex;
+    justify-content: space-around;
+}
+
 .fourth-section-title {
     color: #F00;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -176,14 +182,20 @@ header {
     line-height: normal;
 }
 
-.fourth-section p {
+.fourth-section-title {
+    color: #FF0000;
+
+
+}
+
+.fourth-section-pragraph {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-
+    /* 160% */
 }
 
 .circle {
@@ -193,5 +205,112 @@ header {
     width: 364.844px;
     height: 364.844px;
     padding: 25px;
+
+}
+
+.fourth-three {
+    color: #F00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.fourth-section-pragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.section-five {
+    margin-top: 160px;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.section-five h1 {
+    font-family: Merriweather;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidays-color {
+    color: #FF0000;
+
+}
+
+.section-five p {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+
+/* section seven */
+
+
+.section-seven {
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px;
+}
+
+.section-seven-form {
+    display: inline;
+    text-align: center;
+
+
+}
+
+.section-seven h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+.section-seven p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.section-seven-input {
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px;
+
+}
+
+.section-seven-subscribe {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: white;
+    padding: 20px;
 
 }
