@@ -70,3 +70,55 @@ header {
     line-height: normal;
     padding-bottom: -30px;
 }
+
+/* second section is here */
+
+.second-section-cover {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second-section {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)
+}
+
+.second-section h1 {
+    color: white;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 64px;
+    letter-spacing: 7.04px;
+    padding-top: 105px;
+    padding-left: 105px;
+
+}
+
+.second-section p {
+    color: white;
+    font-family: inherit;
+    padding-left: 105px;
+
+}
+
+
+
+.join-button {
+    margin-left: 105px;
+    border: none;
+    background-color: rgb(227, 164, 3);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 30px;
+}
