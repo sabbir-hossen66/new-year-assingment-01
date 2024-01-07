@@ -314,3 +314,24 @@ header {
     padding: 20px;
 
 }
+
+/* here is footer */
+.main-footer {
+    padding: 200px;
+    background-color: #070211;
+    color: white;
+    display: cover;
+}
+
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon-footer {
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 380px;
+}
