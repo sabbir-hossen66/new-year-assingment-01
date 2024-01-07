@@ -1,9 +1,31 @@
-.header-title {
-    /* width: 632px; */
-    /* color: #FFF; */
-    text-align: center;
-    font-family: Merriweather;
+.container {
 
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    color: #FFF;
+    font-family: Merriweather;
     font-style: normal;
+    font-size: 30px;
+    padding: 150px;
+    /* font-size: larger; */
+    font-weight: 900;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)
+}
+
+
+header {
+    background-image: url(' ../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
