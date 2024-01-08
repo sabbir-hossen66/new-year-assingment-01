@@ -373,14 +373,19 @@ header {
 
 /* here is footer */
 .main-footer {
-    padding: 50px;
     background-color: #070211;
     color: white;
     display: cover;
 }
 
+.main-footer-cover {
+    padding: 70px;
+}
+
 
 .footer-flex {
+    font-size: 24px;
+    font-family: cursive;
     display: flex;
     justify-content: space-between;
 
@@ -392,7 +397,13 @@ header {
     /* margin-bottom: 380px; */
 }
 
+.icon-footer img {
+    margin-right: 10px;
+}
+
 .footer-down-flex {
+    font-size: 24px;
+    font-family: cursive;
     display: flex;
     justify-content: space-between;
 }
