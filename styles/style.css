@@ -89,11 +89,25 @@ header {
 
 }
 
+.section-second-flex {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second-section-right {
+    margin-right: 35px;
+    margin-top: 60px;
+}
+
+/* 
 .second-section {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
-}
+} */
 
 .second-section h1 {
     color: white;
@@ -277,13 +291,10 @@ header {
 }
 
 .section-six h2 {
-    color: #070211;
     font-family: Merriweather;
-    font-size: 35x;
-    font-style: normal;
+    font-size: xx-large;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
+
 }
 
 .section-six p {
@@ -374,5 +385,10 @@ header {
 .icon-footer {
     text-align: center;
     justify-content: space-around;
-    margin-bottom: 380px;
+    /* margin-bottom: 380px; */
+}
+
+.footer-down-flex {
+    display: flex;
+    justify-content: space-between;
 }
